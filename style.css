@@ -1,0 +1,92 @@
+body {
+	background-color: green;
+}
+
+body div {
+  border-radius:5px;
+}
+
+.start {
+  position: absolute;
+  width: 100%;
+  background-color: transparent;
+  height: 100%;
+  z-index:2;
+}
+
+.btn > div {
+  position: absolute;
+  top: 152px;
+  width: 150px;
+  height: 150px;
+  background-color: transparent;
+  z-index: 1;
+}
+
+.enter {
+  color: blue;
+  position:relative;
+  left: 180px;
+  top: 100px;
+}
+
+input {
+  width: 25px;
+}
+
+.play {
+  margin:auto;
+  position:relative;
+  top: 60px;
+  height:310px;
+  width:500px;
+  background-color: orange;
+}
+
+#b {
+  margin:auto;
+  height:10px;
+  width:90%;
+  position:relative;
+  background-color:brown;
+  top:300px;
+}
+
+.stick > div {
+  border-radius:5px 5px 0px 0px;
+  background-color:brown;
+  width:10px;
+  height:80px;
+  position:absolute;
+  top:220px;
+}
+
+.shapes > div {
+  border:2px solid #000;
+  border-radius:7px;
+  background-color:#0026f9;
+  height:13px;
+  position:absolute;
+  z-index: 1;
+  visibility: hidden;
+  transition: top .2s ease-out;
+}
+
+#t1 {width: 30px;}
+#t2 {width: 40px;}
+#t3 {width: 50px;}
+#t4 {width: 60px;}
+#t5 {width: 70px;}
+#t6 {width: 80px;}
+#t7 {width: 90px;}
+#t8 {width: 100px;}
+#t9 {width: 110px;}
+#t10 {width: 120px;}
+
+#i {left: 95px;}
+#ii {left: 245px;}
+#iii {left: 395px;}
+
+#b1 {left: 25px;}
+#b2 {left: 175px;}
+#b3 {left: 325px;}

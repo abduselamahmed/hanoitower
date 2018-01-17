@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>HanoiTower</title>
+	<meta charset="UTF-8" >
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="style.css">
+	<link rel="icon" type="image/x-icon" href="logo.ico">
+</head>
+
+<body onkeydown="beg(event)">
+<div class="play">
+  <div class="start" id="s">
+    <div class="enter">
+    <p>
+      choose difficulty<br>between 3 and 10.
+    </p>
+    <input type="number" id="num" value="3" min="3" max="10">
+    <button onclick="play()">PLAY!</button>
+  </div>
+  </div>
+	<div class="shapes">
+	  <div id="t1"></div>
+	  <div id="t2"></div>
+	  <div id="t3"></div>
+	  <div id="t4"></div>
+	  <div id="t5"></div>
+	  <div id="t6"></div>
+	  <div id="t7"></div>
+	  <div id="t8"></div>
+	  <div id="t9"></div>
+	  <div id="t10"></div>
+	</div>
+	<div class="stick">
+		<div id="i"></div>
+		<div id="ii"></div>
+		<div id="iii"></div>
+	</div>
+	<div class="btn">
+		<div id="b1" onclick="work(0)"></div>
+		<div id="b2" onclick="work(1)"></div>
+		<div id="b3" onclick="work(2)"></div>
+	</div>
+  <div id="b"></div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
