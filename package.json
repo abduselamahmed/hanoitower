@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "hanoi tower playground for the web",
   "main": "script.js",
+  "scripts": {
+  "start": "node server.js"
+  },
   "engines": {
   	"node": "10.0.0"
   },
